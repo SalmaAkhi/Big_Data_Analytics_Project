@@ -1,0 +1,34 @@
+{
+  "mentions": 2115,
+  "distinct_surface_forms": 1554,
+  "after_normalisation": 1488,
+  "type_conflicts_fixed": 32,
+  "fuzzy_merges": 15,
+  "resolved_entities": 1473,
+  "reduction_pct": 5.2,
+  "relations_raw": 1470,
+  "relations_dropped_invalid": 10,
+  "relations_curated": 1324,
+  "entities_by_type": {
+    "Company": 483,
+    "Person": 290,
+    "Product": 412,
+    "Organization": 103,
+    "Location": 104,
+    "Technology": 81
+  },
+  "relations_by_type": {
+    "RELATED_TO": 45,
+    "PARTNERS_WITH": 107,
+    "DEVELOPS": 403,
+    "OWNS": 39,
+    "WORKS_FOR": 70,
+    "SUBSIDIARY_OF": 53,
+    "COMPETES_WITH": 50,
+    "HEADQUARTERED_IN": 60,
+    "CEO_OF": 80,
+    "ACQUIRED": 125,
+    "FOUNDED": 167,
+    "INVESTED_IN": 125
+  }
+}

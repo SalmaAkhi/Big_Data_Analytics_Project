@@ -1,0 +1,16 @@
+# secrets (copy .env.example to .env and add your own Gemini key)
+.env
+
+# local caches: LLM responses, embedding model, python
+data/cache/
+__pycache__/
+*.pyc
+
+# stray folder created by a Windows path conversion
+**/Program Files/
+
+# internal tooling and working files (not part of the deliverable)
+tools/
+data/reports/*_log.txt
+*.docx
+~$*

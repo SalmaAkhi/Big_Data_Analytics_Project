@@ -1,0 +1,5 @@
+category,Cypher expert,GraphRAG,Text2Cypher
+aggregation,0.889,0.889,0.889
+multi_hop,0.833,0.75,0.708
+semantic,0.933,0.8,0.6
+single_hop,1.0,1.0,1.0

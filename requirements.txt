@@ -1,0 +1,14 @@
+pyspark==3.5.3
+fastapi==0.115.5
+uvicorn==0.32.1
+neo4j==5.28.2
+hdfs==2.7.3
+requests==2.32.3
+feedparser==6.0.11
+rapidfuzz==3.10.1
+streamlit==1.40.2
+pyvis==0.3.2
+pandas==2.2.3
+matplotlib==3.9.2
+python-dotenv==1.0.1
+fastembed==0.4.2

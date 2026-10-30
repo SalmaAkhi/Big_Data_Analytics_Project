@@ -1,0 +1,4 @@
+approach,recall,exact,latency_s,tokens_in,tokens_out,cost_usd
+Cypher expert,0.9111,0.8095,0.0617,0,0,0.0
+GraphRAG,0.8603,0.7619,5.0603,95764,1864,0.0103
+Text2Cypher,0.8159,0.7143,2.8283,9456,1452,0.0015

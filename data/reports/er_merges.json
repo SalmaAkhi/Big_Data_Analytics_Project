@@ -1,0 +1,375 @@
+[
+  {
+    "canonical": "Broadcom",
+    "type": "Company",
+    "aliases": [
+      "Broadcom",
+      "Broadcom Corporation",
+      "Broadcom Inc.",
+      "Broadcom Limited"
+    ]
+  },
+  {
+    "canonical": "Nvidia",
+    "type": "Company",
+    "aliases": [
+      "NVIDIA",
+      "Nvidia",
+      "Nvidia Corporation"
+    ]
+  },
+  {
+    "canonical": "Google",
+    "type": "Company",
+    "aliases": [
+      "Google",
+      "Google LLC",
+      "Google+"
+    ]
+  },
+  {
+    "canonical": "GitHub",
+    "type": "Company",
+    "aliases": [
+      "GitHub",
+      "GitHub, Inc",
+      "GitHub, Inc."
+    ]
+  },
+  {
+    "canonical": "Jeff Bezos",
+    "type": "Person",
+    "aliases": [
+      "Bezos",
+      "Jeff Bezos"
+    ]
+  },
+  {
+    "canonical": "SpaceXAI",
+    "type": "Company",
+    "aliases": [
+      "SpaceXAI",
+      "SpaceXAI LLC"
+    ]
+  },
+  {
+    "canonical": "Mike Krieger",
+    "type": "Person",
+    "aliases": [
+      "Krieger",
+      "Mike Krieger"
+    ]
+  },
+  {
+    "canonical": "WhatsApp",
+    "type": "Product",
+    "aliases": [
+      "WhatsApp",
+      "WhatsApp Inc."
+    ]
+  },
+  {
+    "canonical": "X Corp.",
+    "type": "Company",
+    "aliases": [
+      "X Corp",
+      "X Corp."
+    ]
+  },
+  {
+    "canonical": "Netflix",
+    "type": "Company",
+    "aliases": [
+      "Netflix",
+      "Netflix, Inc."
+    ]
+  },
+  {
+    "canonical": "Wingz, Inc.",
+    "type": "Company",
+    "aliases": [
+      "Wingz",
+      "Wingz, Inc."
+    ]
+  },
+  {
+    "canonical": "Slack",
+    "type": "Company",
+    "aliases": [
+      "Slack",
+      "Slack Technologies"
+    ]
+  },
+  {
+    "canonical": "Marc Benioff",
+    "type": "Person",
+    "aliases": [
+      "Benioff",
+      "Marc Benioff"
+    ]
+  },
+  {
+    "canonical": "Meta Platforms",
+    "type": "Company",
+    "aliases": [
+      "Meta",
+      "Meta Platforms"
+    ]
+  },
+  {
+    "canonical": "Twitter",
+    "type": "Company",
+    "aliases": [
+      "Twitter",
+      "Twitter, Inc."
+    ]
+  },
+  {
+    "canonical": "Nasdaq",
+    "type": "Organization",
+    "aliases": [
+      "NASDAQ",
+      "Nasdaq"
+    ]
+  },
+  {
+    "canonical": "IBM 7094",
+    "type": "Product",
+    "aliases": [
+      "IBM 704",
+      "IBM 7094"
+    ]
+  },
+  {
+    "canonical": "Samsung",
+    "type": "Company",
+    "aliases": [
+      "Samsung",
+      "Samsung Group"
+    ]
+  },
+  {
+    "canonical": "Uber",
+    "type": "Company",
+    "aliases": [
+      "Uber",
+      "Uber Technologies, Inc."
+    ]
+  },
+  {
+    "canonical": "Figma",
+    "type": "Company",
+    "aliases": [
+      "Figma",
+      "Figma, Inc."
+    ]
+  },
+  {
+    "canonical": "Adobe Inc.",
+    "type": "Company",
+    "aliases": [
+      "Adobe",
+      "Adobe Inc."
+    ]
+  },
+  {
+    "canonical": "VMware ESX Server",
+    "type": "Product",
+    "aliases": [
+      "VMware ESX Server",
+      "VMware GSX Server"
+    ]
+  },
+  {
+    "canonical": "JP Morgan Chase",
+    "type": "Company",
+    "aliases": [
+      "JP Morgan Chase",
+      "JPMorgan Chase"
+    ]
+  },
+  {
+    "canonical": "Amazon Web Services",
+    "type": "Company",
+    "aliases": [
+      "Amazon Web Services",
+      "Amazon Web Services (AWS)"
+    ]
+  },
+  {
+    "canonical": "Tesla",
+    "type": "Company",
+    "aliases": [
+      "Tesla",
+      "Tesla, Inc."
+    ]
+  },
+  {
+    "canonical": "Jean-Bernard Lévy",
+    "type": "Person",
+    "aliases": [
+      "Jean-Bernard Lévy",
+      "Lévy"
+    ]
+  },
+  {
+    "canonical": "Jimmy Lee",
+    "type": "Person",
+    "aliases": [
+      "Jimmy Lee",
+      "Lee"
+    ]
+  },
+  {
+    "canonical": "SoftBank Vision Fund",
+    "type": "Company",
+    "aliases": [
+      "SoftBank Vision Fund",
+      "Softbank Vision Fund"
+    ]
+  },
+  {
+    "canonical": "Yahoo!",
+    "type": "Company",
+    "aliases": [
+      "Yahoo",
+      "Yahoo!"
+    ]
+  },
+  {
+    "canonical": "PayPal",
+    "type": "Company",
+    "aliases": [
+      "PayPal",
+      "PayPal Holdings, Inc."
+    ]
+  },
+  {
+    "canonical": "Nio",
+    "type": "Company",
+    "aliases": [
+      "NIO",
+      "Nio"
+    ]
+  },
+  {
+    "canonical": "OpenAI",
+    "type": "Company",
+    "aliases": [
+      "OpenAI",
+      "OpenAI, Inc."
+    ]
+  },
+  {
+    "canonical": "Oracle Corporation",
+    "type": "Company",
+    "aliases": [
+      "Oracle",
+      "Oracle Corporation"
+    ]
+  },
+  {
+    "canonical": "Apple II",
+    "type": "Product",
+    "aliases": [
+      "Apple I",
+      "Apple II"
+    ]
+  },
+  {
+    "canonical": "Systrom",
+    "type": "Person",
+    "aliases": [
+      "Kevin Systrom",
+      "Systrom"
+    ]
+  },
+  {
+    "canonical": "Skype",
+    "type": "Company",
+    "aliases": [
+      "Skype",
+      "Skype Technologies"
+    ]
+  },
+  {
+    "canonical": "SoftBank Group",
+    "type": "Company",
+    "aliases": [
+      "SoftBank",
+      "SoftBank Group"
+    ]
+  },
+  {
+    "canonical": "Mistral Medium 3.5",
+    "type": "Product",
+    "aliases": [
+      "Mistral Medium 3",
+      "Mistral Medium 3.5"
+    ]
+  },
+  {
+    "canonical": "Mistral Large 3",
+    "type": "Product",
+    "aliases": [
+      "Mistral Large 3",
+      "Mistral Large 4"
+    ]
+  },
+  {
+    "canonical": "MasterCard",
+    "type": "Company",
+    "aliases": [
+      "MasterCard",
+      "Mastercard"
+    ]
+  },
+  {
+    "canonical": "Microsoft",
+    "type": "Company",
+    "aliases": [
+      "Microsoft",
+      "Microsoft Corporation"
+    ]
+  },
+  {
+    "canonical": "Apple",
+    "type": "Company",
+    "aliases": [
+      "Apple",
+      "Apple Inc."
+    ]
+  },
+  {
+    "canonical": "Elon Musk",
+    "type": "Person",
+    "aliases": [
+      "Elon Musk",
+      "Musk"
+    ]
+  },
+  {
+    "canonical": "Jensen Huang",
+    "type": "Person",
+    "aliases": [
+      "Huang",
+      "Jensen Huang"
+    ]
+  },
+  {
+    "canonical": "Call of Duty: Modern Warfare 2",
+    "type": "Product",
+    "aliases": [
+      "Call of Duty: Modern Warfare 2",
+      "Call of Duty: Modern Warfare 3"
+    ]
+  },
+  {
+    "canonical": "ATI Technologies",
+    "type": "Company",
+    "aliases": [
+      "ATI",
+      "ATI Technologies"
+    ]
+  }
+]

@@ -1,0 +1,2637 @@
+{
+  "recall": [
+    {
+      "qid": "Q95",
+      "subject": "Google",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Larry Page",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q95",
+      "subject": "Google",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Sergey Brin",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q95",
+      "subject": "Google",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Mountain View",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q95",
+      "subject": "Google",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Googleplex",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q95",
+      "subject": "Google",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Sundar Pichai",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q95",
+      "subject": "Google",
+      "property": "P749",
+      "relation": "SUBSIDIARY_OF",
+      "object": "Alphabet Inc.",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q248",
+      "subject": "Intel",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Robert Noyce",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q248",
+      "subject": "Intel",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Gordon Moore",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q248",
+      "subject": "Intel",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Andrew Grove",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q248",
+      "subject": "Intel",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "BlackRock",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q248",
+      "subject": "Intel",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "The Vanguard Group",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q248",
+      "subject": "Intel",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Santa Clara",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q248",
+      "subject": "Intel",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Robert Noyce",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q248",
+      "subject": "Intel",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Gordon Moore",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q248",
+      "subject": "Intel",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Andrew Grove",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q248",
+      "subject": "Intel",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Paul Otellini",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q248",
+      "subject": "Intel",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Craig R. Barrett",
+      "found": true,
+      "in_text": false
+    },
+    {
+      "qid": "Q248",
+      "subject": "Intel",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Pat Gelsinger",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q248",
+      "subject": "Intel",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Brian Krzanich",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q248",
+      "subject": "Intel",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Bob Swan",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q248",
+      "subject": "Intel",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Michelle Johnston Holthaus",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q312",
+      "subject": "Apple Inc.",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Steve Jobs",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q312",
+      "subject": "Apple Inc.",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Steve Wozniak",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q312",
+      "subject": "Apple Inc.",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Berkshire Hathaway",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q312",
+      "subject": "Apple Inc.",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "BlackRock",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q312",
+      "subject": "Apple Inc.",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "The Vanguard Group",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q312",
+      "subject": "Apple Inc.",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "State Street Investment Management",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q312",
+      "subject": "Apple Inc.",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Cupertino",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q364",
+      "subject": "GitHub",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Tom Preston-Werner",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q364",
+      "subject": "GitHub",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Chris Wanstrath",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q364",
+      "subject": "GitHub",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "P. J. Hyett",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q364",
+      "subject": "GitHub",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "San Francisco",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q364",
+      "subject": "GitHub",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Nat Friedman",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q380",
+      "subject": "Meta Platforms",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Mark Zuckerberg",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q380",
+      "subject": "Meta Platforms",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Eduardo Saverin",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q380",
+      "subject": "Meta Platforms",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Dustin Moskovitz",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q380",
+      "subject": "Meta Platforms",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Chris Hughes",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q380",
+      "subject": "Meta Platforms",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Andrew McCollum",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q380",
+      "subject": "Meta Platforms",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Mark Zuckerberg",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q380",
+      "subject": "Meta Platforms",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "BlackRock",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q380",
+      "subject": "Meta Platforms",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Eduardo Saverin",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q380",
+      "subject": "Meta Platforms",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Dustin Moskovitz",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q380",
+      "subject": "Meta Platforms",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Menlo Park",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q380",
+      "subject": "Meta Platforms",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Mark Zuckerberg",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q866",
+      "subject": "YouTube",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Jawed Karim",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q866",
+      "subject": "YouTube",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Chad Hurley",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q866",
+      "subject": "YouTube",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Steve Chen",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q866",
+      "subject": "YouTube",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Google",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q866",
+      "subject": "YouTube",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "San Bruno",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q918",
+      "subject": "Q918",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Jack Dorsey",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q918",
+      "subject": "Q918",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Evan Williams",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q918",
+      "subject": "Q918",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Biz Stone",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q918",
+      "subject": "Q918",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Noah Glass",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q918",
+      "subject": "Q918",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "X Corp.",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q918",
+      "subject": "Q918",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Bastrop",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q2283",
+      "subject": "Microsoft",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Bill Gates",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q2283",
+      "subject": "Microsoft",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Paul Allen",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q2283",
+      "subject": "Microsoft",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "BlackRock",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q2283",
+      "subject": "Microsoft",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "The Vanguard Group",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q2283",
+      "subject": "Microsoft",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Redmond",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q2283",
+      "subject": "Microsoft",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Liro Kivi",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q3884",
+      "subject": "Amazon",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Jeff Bezos",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q3884",
+      "subject": "Amazon",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "BlackRock",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q3884",
+      "subject": "Amazon",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Jeff Bezos",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q3884",
+      "subject": "Amazon",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "The Vanguard Group",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q3884",
+      "subject": "Amazon",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Seattle",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q3884",
+      "subject": "Amazon",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Jeff Bezos",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q3884",
+      "subject": "Amazon",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Andy Jassy",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q11407",
+      "subject": "VMware",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Diane Greene",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q11407",
+      "subject": "VMware",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Mendel Rosenblum",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q11407",
+      "subject": "VMware",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Palo Alto",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q11407",
+      "subject": "VMware",
+      "property": "P749",
+      "relation": "SUBSIDIARY_OF",
+      "object": "Broadcom",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q11463",
+      "subject": "Adobe",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "John Warnock",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q11463",
+      "subject": "Adobe",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Charles Geschke",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q11463",
+      "subject": "Adobe",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "BlackRock",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q11463",
+      "subject": "Adobe",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "The Vanguard Group",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q11463",
+      "subject": "Adobe",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "San Jose",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q11463",
+      "subject": "Adobe",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Shantanu Narayen",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q19900",
+      "subject": "Oracle Corporation",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Larry Ellison",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q19900",
+      "subject": "Oracle Corporation",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Bob Miner",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q19900",
+      "subject": "Oracle Corporation",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Ed Oates",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q19900",
+      "subject": "Oracle Corporation",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Larry Ellison",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q19900",
+      "subject": "Oracle Corporation",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Capital Group Companies",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q19900",
+      "subject": "Oracle Corporation",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "The Vanguard Group",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q19900",
+      "subject": "Oracle Corporation",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Austin",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q20718",
+      "subject": "Samsung Electronics",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Lee Byung-chul",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q20718",
+      "subject": "Samsung Electronics",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Lee Kun-hee",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q20718",
+      "subject": "Samsung Electronics",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Samsung C&T Corporation",
+      "found": true,
+      "in_text": false
+    },
+    {
+      "qid": "Q20718",
+      "subject": "Samsung Electronics",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Samsung Life Insurance",
+      "found": true,
+      "in_text": false
+    },
+    {
+      "qid": "Q20718",
+      "subject": "Samsung Electronics",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "treasury stock",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q20718",
+      "subject": "Samsung Electronics",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "National Pension Service",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q20718",
+      "subject": "Samsung Electronics",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Seoul",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q20718",
+      "subject": "Samsung Electronics",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Suwon",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q20718",
+      "subject": "Samsung Electronics",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Lee Jae-yong",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q37156",
+      "subject": "IBM",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Thomas John Watson, Sr.",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q37156",
+      "subject": "IBM",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Charles Ranlett Flint",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q37156",
+      "subject": "IBM",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Berkshire Hathaway",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q37156",
+      "subject": "IBM",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "The Vanguard Group",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q37156",
+      "subject": "IBM",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "State Street Corporation",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q37156",
+      "subject": "IBM",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Armonk",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q37156",
+      "subject": "IBM",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Arvind Krishna",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q63327",
+      "subject": "Airbnb",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Brian Chesky",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q63327",
+      "subject": "Airbnb",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Nathan Blecharczyk",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q63327",
+      "subject": "Airbnb",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Joe Gebbia",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q63327",
+      "subject": "Airbnb",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "San Francisco",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q63327",
+      "subject": "Airbnb",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Brian Chesky",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q128896",
+      "subject": "AMD",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Edwin Turney",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q128896",
+      "subject": "AMD",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Jerry Sanders",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q128896",
+      "subject": "AMD",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Jack Gifford",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q128896",
+      "subject": "AMD",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "BlackRock",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q128896",
+      "subject": "AMD",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "The Vanguard Group",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q128896",
+      "subject": "AMD",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Santa Clara",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q128896",
+      "subject": "AMD",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Lisa Su",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q182477",
+      "subject": "Nvidia",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Jensen Huang",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q182477",
+      "subject": "Nvidia",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Chris Malachowsky",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q182477",
+      "subject": "Nvidia",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Curtis Priem",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q182477",
+      "subject": "Nvidia",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "BlackRock",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q182477",
+      "subject": "Nvidia",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Jensen Huang",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q182477",
+      "subject": "Nvidia",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "The Vanguard Group",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q182477",
+      "subject": "Nvidia",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Santa Clara",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q182477",
+      "subject": "Nvidia",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Jensen Huang",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q193701",
+      "subject": "SpaceX",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Elon Musk",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q193701",
+      "subject": "SpaceX",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Elon Musk",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q193701",
+      "subject": "SpaceX",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Alphabet Inc.",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q193701",
+      "subject": "SpaceX",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Starbase",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q193701",
+      "subject": "SpaceX",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Elon Musk",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q209330",
+      "subject": "Q209330",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Kevin Systrom",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q209330",
+      "subject": "Q209330",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Mike Krieger",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q209330",
+      "subject": "Q209330",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "San Francisco",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q213660",
+      "subject": "LinkedIn",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Reid Hoffman",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q213660",
+      "subject": "LinkedIn",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Konstantin Guericke",
+      "found": true,
+      "in_text": false
+    },
+    {
+      "qid": "Q213660",
+      "subject": "LinkedIn",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Sunnyvale",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q296782",
+      "subject": "Arm Holdings",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Robin Saxby",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q296782",
+      "subject": "Arm Holdings",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "SoftBank Group",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q296782",
+      "subject": "Arm Holdings",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Cambridge",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q296782",
+      "subject": "Arm Holdings",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Rene Haas",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q296782",
+      "subject": "Arm Holdings",
+      "property": "P749",
+      "relation": "SUBSIDIARY_OF",
+      "object": "SoftBank Group",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q344341",
+      "subject": "Activision Blizzard",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Santa Monica",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q344341",
+      "subject": "Activision Blizzard",
+      "property": "P749",
+      "relation": "SUBSIDIARY_OF",
+      "object": "Xbox Game Studios",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q478214",
+      "subject": "Tesla",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Marc Tarpenning",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q478214",
+      "subject": "Tesla",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Martin Eberhard",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q478214",
+      "subject": "Tesla",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Larry Ellison",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q478214",
+      "subject": "Tesla",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Elon Musk",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q478214",
+      "subject": "Tesla",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Capital Group Companies",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q478214",
+      "subject": "Tesla",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Baillie Gifford",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q478214",
+      "subject": "Tesla",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Capital Ventures International",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q478214",
+      "subject": "Tesla",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Austin",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q478214",
+      "subject": "Tesla",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Elon Musk",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q483959",
+      "subject": "PayPal",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Max Levchin",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q483959",
+      "subject": "PayPal",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Elon Musk",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q483959",
+      "subject": "PayPal",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Peter Thiel",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q483959",
+      "subject": "PayPal",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Ken Howery",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q483959",
+      "subject": "PayPal",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Luke Nosek",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q483959",
+      "subject": "PayPal",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Yu Pan",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q485593",
+      "subject": "Red Hat",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Bob Young",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q485593",
+      "subject": "Red Hat",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Marc Ewing",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q485593",
+      "subject": "Red Hat",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Raleigh",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q485593",
+      "subject": "Red Hat",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Matt Hicks",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q485593",
+      "subject": "Red Hat",
+      "property": "P749",
+      "relation": "SUBSIDIARY_OF",
+      "object": "IBM",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q780442",
+      "subject": "Uber",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Garrett Camp",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q780442",
+      "subject": "Uber",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Travis Kalanick",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q780442",
+      "subject": "Uber",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Morgan Stanley",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q780442",
+      "subject": "Uber",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "San Francisco",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q780442",
+      "subject": "Uber",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Dara Khosrowshahi",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q790060",
+      "subject": "Broadcom",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Hewlett-Packard",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q790060",
+      "subject": "Broadcom",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Palo Alto",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q790060",
+      "subject": "Broadcom",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Tan Hock Eng",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q907311",
+      "subject": "Netflix",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Netflix, Inc.",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q907311",
+      "subject": "Netflix",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Los Gatos",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q941127",
+      "subject": "Salesforce",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Marc Benioff",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q941127",
+      "subject": "Salesforce",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Marc Benioff",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q941127",
+      "subject": "Salesforce",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "San Francisco",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q941127",
+      "subject": "Salesforce",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Salesforce Tower",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q941127",
+      "subject": "Salesforce",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Marc Benioff",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q1049511",
+      "subject": "Q1049511",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Jan Koum",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q1049511",
+      "subject": "Q1049511",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Brian Acton",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q1049511",
+      "subject": "Q1049511",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "WhatsApp LLC",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q1049511",
+      "subject": "Q1049511",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Menlo Park",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q2901365",
+      "subject": "Mobileye",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Amnon Shashua",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q2901365",
+      "subject": "Mobileye",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Jerusalem",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q2901365",
+      "subject": "Mobileye",
+      "property": "P749",
+      "relation": "SUBSIDIARY_OF",
+      "object": "Mobileye Global",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q7808625",
+      "subject": "Slack Technologies",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Stewart Butterfield",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q7808625",
+      "subject": "Slack Technologies",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "San Francisco",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q7808625",
+      "subject": "Slack Technologies",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Stewart Butterfield",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q15733006",
+      "subject": "Google DeepMind",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Demis Hassabis",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q15733006",
+      "subject": "Google DeepMind",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Mustafa Suleyman",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q15733006",
+      "subject": "Google DeepMind",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Shane Legg",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q15733006",
+      "subject": "Google DeepMind",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Google",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q15733006",
+      "subject": "Google DeepMind",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Alphabet Inc.",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q15733006",
+      "subject": "Google DeepMind",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "London",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q15733006",
+      "subject": "Google DeepMind",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Googleplex",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q15733006",
+      "subject": "Google DeepMind",
+      "property": "P749",
+      "relation": "SUBSIDIARY_OF",
+      "object": "Alphabet Inc.",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q20800404",
+      "subject": "Alphabet Inc.",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Larry Page",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q20800404",
+      "subject": "Alphabet Inc.",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Sergey Brin",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q20800404",
+      "subject": "Alphabet Inc.",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Larry Page",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q20800404",
+      "subject": "Alphabet Inc.",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Eric Schmidt",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q20800404",
+      "subject": "Alphabet Inc.",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Sergey Brin",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q20800404",
+      "subject": "Alphabet Inc.",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "The Vanguard Group",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q20800404",
+      "subject": "Alphabet Inc.",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Mountain View",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q20800404",
+      "subject": "Alphabet Inc.",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Sundar Pichai",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q21708200",
+      "subject": "OpenAI",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Elon Musk",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q21708200",
+      "subject": "OpenAI",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Trevor Blackwell",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q21708200",
+      "subject": "OpenAI",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Sam Altman",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q21708200",
+      "subject": "OpenAI",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Ilya Sutskever",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q21708200",
+      "subject": "OpenAI",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Wojciech Zaremba",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q21708200",
+      "subject": "OpenAI",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Diederik P. Kingma",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q21708200",
+      "subject": "OpenAI",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Andrej Karpathy",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q21708200",
+      "subject": "OpenAI",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Greg Brockman",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q21708200",
+      "subject": "OpenAI",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "John Schulman",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q21708200",
+      "subject": "OpenAI",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Vicki Cheung",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q21708200",
+      "subject": "OpenAI",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Pamela Vagata",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q21708200",
+      "subject": "OpenAI",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "San Francisco",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q21708200",
+      "subject": "OpenAI",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Sam Altman",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q29043471",
+      "subject": "Neuralink",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Elon Musk",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q29043471",
+      "subject": "Neuralink",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Jared Birchall",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q29043471",
+      "subject": "Neuralink",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "San Francisco",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q29043471",
+      "subject": "Neuralink",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "California",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q29043471",
+      "subject": "Neuralink",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Pioneer Building",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q96186334",
+      "subject": "Figma",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Dylan Field",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q96186334",
+      "subject": "Figma",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "San Francisco",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q116758847",
+      "subject": "Anthropic",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Chris Olah",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q116758847",
+      "subject": "Anthropic",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Jared Kaplan",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q116758847",
+      "subject": "Anthropic",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Dario Amodei",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q116758847",
+      "subject": "Anthropic",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Daniela Amodei",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q116758847",
+      "subject": "Anthropic",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "San Francisco",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q116758847",
+      "subject": "Anthropic",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Dario Amodei",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q119718658",
+      "subject": "Mistral AI",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Guillaume Lample",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q119718658",
+      "subject": "Mistral AI",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Arthur Mensch",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q119718658",
+      "subject": "Mistral AI",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Timothée Lacroix",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q119718658",
+      "subject": "Mistral AI",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "Paris",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q119718658",
+      "subject": "Mistral AI",
+      "property": "P169",
+      "relation": "CEO_OF",
+      "object": "Arthur Mensch",
+      "found": true,
+      "in_text": true
+    },
+    {
+      "qid": "Q120599684",
+      "subject": "SpaceXAI",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Elon Musk",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q120599684",
+      "subject": "SpaceXAI",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Igor Babuschkin",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q120599684",
+      "subject": "SpaceXAI",
+      "property": "P112",
+      "relation": "FOUNDED",
+      "object": "Tony Wu",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q120599684",
+      "subject": "SpaceXAI",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "SpaceX",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q120599684",
+      "subject": "SpaceXAI",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Elon Musk",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q120599684",
+      "subject": "SpaceXAI",
+      "property": "P127",
+      "relation": "OWNED_BY",
+      "object": "Kingdom Holding Company",
+      "found": false,
+      "in_text": false
+    },
+    {
+      "qid": "Q120599684",
+      "subject": "SpaceXAI",
+      "property": "P159",
+      "relation": "HEADQUARTERED_IN",
+      "object": "San Francisco Bay Area",
+      "found": false,
+      "in_text": true
+    },
+    {
+      "qid": "Q120599684",
+      "subject": "SpaceXAI",
+      "property": "P749",
+      "relation": "SUBSIDIARY_OF",
+      "object": "SpaceX",
+      "found": false,
+      "in_text": true
+    }
+  ],
+  "precision": [
+    {
+      "source": "Uber",
+      "relation": "PARTNERS_WITH",
+      "target": "Lucid Motors",
+      "evidence": "The company has launched or is in the process of launching robotaxi services in several cities worldwide in partnership with operators, software designers, and car manufacturers including Lucid Motors",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Oracle Corporation",
+      "relation": "INVESTED_IN",
+      "target": "Kingdom of Saudi Arabia",
+      "evidence": "In February 2023, the company announced it was going to invest $1.5 billion into the Kingdom of Saudi Arabia...",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Anat Ashkenazi",
+      "relation": "WORKS_FOR",
+      "target": "Alphabet Inc.",
+      "evidence": "Chief Financial Officer: Anat Ashkenazi serves in executive leadership for the company.",
+      "supported": false,
+      "reason": "The evidence does not explicitly mention Alphabet Inc."
+    },
+    {
+      "source": "Arm Holdings",
+      "relation": "HEADQUARTERED_IN",
+      "target": "Cambridge",
+      "evidence": "SoftBank Group would acquire slightly less than a 10% stake in Nvidia, and ARM would maintain its headquarters in Cambridge.",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Elon Musk",
+      "relation": "FOUNDED",
+      "target": "X.com",
+      "evidence": "In March 2000, Confinity merged with X.com, an online financial services company founded in March 1999 by Elon Musk, Harris Fricker, Christopher Payne, and Ed Ho.",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Advanced Micro Devices",
+      "relation": "DEVELOPS",
+      "target": "Am2505",
+      "evidence": "Its bestselling product in 1971 was the Am2505, the fastest multiplier available.",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "VMware",
+      "relation": "HEADQUARTERED_IN",
+      "target": "Palo Alto",
+      "evidence": "In May 2013, VMware launched its own IaaS service, vCloud Hybrid Service, at its new Palo Alto headquarters",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Syed Anas Mohiuddin",
+      "relation": "RELATED_TO",
+      "target": "US federal government",
+      "evidence": "Independent researcher Syed Anas Mohiuddin tested agents from organizations including... the US federal government.",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Uber",
+      "relation": "PARTNERS_WITH",
+      "target": "Linux Foundation",
+      "evidence": "Uber became a gold member of the Linux Foundation.",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Microsoft",
+      "relation": "DEVELOPS",
+      "target": "MSNBC",
+      "evidence": "Branching out into new markets in 1996, Microsoft and General Electric's NBC unit created a new 24/7 cable news channel, MSNBC.",
+      "supported": false,
+      "reason": "MSNBC was created as a joint venture, which does not directly mean Microsoft develops it in the context of the DEVELOPS relation."
+    },
+    {
+      "source": "Larry Page",
+      "relation": "FOUNDED",
+      "target": "Google",
+      "evidence": "Google was founded in 1998 by American computer scientists Larry Page and Sergey Brin.",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Microsoft",
+      "relation": "OWNS",
+      "target": "OpenAI Global, LLC",
+      "evidence": "whereas OpenAI Global, LLC, was owned by OpenAI LP and Microsoft, the latter of which had a minority non-voting stake.",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Adobe Inc.",
+      "relation": "DEVELOPS",
+      "target": "Adobe Muse",
+      "evidence": "low-code web development with Adobe Muse.",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Microsoft",
+      "relation": "DEVELOPS",
+      "target": "Microsoft Windows NT",
+      "evidence": "Meanwhile, the company was at work on Microsoft Windows NT, which was heavily based on its copy of the OS/2 code.",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "John Schulman",
+      "relation": "WORKS_FOR",
+      "target": "OpenAI",
+      "evidence": "In 2024, Anthropic hired several notable employees from OpenAI, including Jan Leike and John Schulman.",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "IVP",
+      "relation": "INVESTED_IN",
+      "target": "GitHub",
+      "evidence": "other investors were Andreessen Horowitz, Thrive Capital, IVP (Institutional Venture Partners)",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "SpaceX",
+      "relation": "DEVELOPS",
+      "target": "Starship",
+      "evidence": "Space, which develops and flies the Falcon 9, Falcon Heavy, and Starship launch vehicles",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Sundar Pichai",
+      "relation": "CEO_OF",
+      "target": "Google",
+      "evidence": "Sundar Pichai, the company's Product Chief, became the new chief executive officer of Google",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Elon Musk",
+      "relation": "OWNS",
+      "target": "xAI",
+      "evidence": "xAI, Musk's artificial intelligence company",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Waymo",
+      "relation": "SUBSIDIARY_OF",
+      "target": "Alphabet Inc.",
+      "evidence": "In January 2024, Waymo, the autonomous driving division of Alphabet Inc., which operates extensively in San Francisco...",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Amazon",
+      "relation": "ACQUIRED",
+      "target": "Whole Foods Market",
+      "evidence": "Amazon purchased Whole Foods Market supermarket chain for $13.7 billion in 2017.",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Uber",
+      "relation": "ACQUIRED",
+      "target": "Cornershop",
+      "evidence": "Uber acquired 53% of Cornershop, a provider of grocery delivery services primarily in Latin America.",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Steve Jobs",
+      "relation": "INVESTED_IN",
+      "target": "Adobe Inc.",
+      "evidence": "they agreed to sell him shares worth 19 percent of the company.",
+      "supported": false,
+      "reason": "The evidence does not explicitly mention Steve Jobs investing in Adobe Inc."
+    },
+    {
+      "source": "Toys \"R\" Us",
+      "relation": "PARTNERS_WITH",
+      "target": "Amazon",
+      "evidence": "US toy retailer Toys \"R\" Us entered into a 10-year agreement with Amazon",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Delaware",
+      "relation": "RELATED_TO",
+      "target": "OpenAI",
+      "evidence": "On October 28, 2025, OpenAI announced that it had adopted the new PBC corporate structure after receiving approval from the attorneys general of California and Delaware.",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Google",
+      "relation": "DEVELOPS",
+      "target": "Glass",
+      "evidence": "Discontinued Google products include gaming (Stadia), Glass",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Microsoft",
+      "relation": "INVESTED_IN",
+      "target": "OpenAI LP",
+      "evidence": "Microsoft subsequently invested $1 billion in OpenAI LP",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Intel",
+      "relation": "DEVELOPS",
+      "target": "1103",
+      "evidence": "The three-transistor cell implemented in the first commercially available dynamic random-access memory (DRAM), the 1103 released in 1970, solved these issues.",
+      "supported": false,
+      "reason": "The evidence mentions the 1103 DRAM but does not state that Intel developed it."
+    },
+    {
+      "source": "Larry Ellison",
+      "relation": "INVESTED_IN",
+      "target": "Salesforce",
+      "evidence": "Two of Salesforce's earliest investors were Larry Ellison, the co-founder and first CEO of Oracle, and Halsey Minor, the founder of CNET.",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "PayPal",
+      "relation": "PARTNERS_WITH",
+      "target": "Discover Card",
+      "evidence": "In August 2012, the company announced its partnership with Discover Card...",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Bob Young",
+      "relation": "FOUNDED",
+      "target": "Lulu",
+      "evidence": "Bob Young went on to found the online print on demand and self-publishing company, Lulu in 2002.",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Samsung Electronics",
+      "relation": "DEVELOPS",
+      "target": "1 GB DRAM",
+      "evidence": "and 1 GB DRAM in 1996.",
+      "supported": false,
+      "reason": "The evidence does not explicitly mention Samsung Electronics developing 1 GB DRAM."
+    },
+    {
+      "source": "Amazon",
+      "relation": "DEVELOPS",
+      "target": "Astro",
+      "evidence": "In September 2021, Amazon announced the launch of Astro, its first household robot.",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Google DeepMind",
+      "relation": "DEVELOPS",
+      "target": "Veo",
+      "evidence": "Veo (text-to-video)",
+      "supported": false,
+      "reason": "The evidence only states 'Veo (text-to-video)' without mentioning Google DeepMind."
+    },
+    {
+      "source": "Mistral AI",
+      "relation": "DEVELOPS",
+      "target": "Magistral Small",
+      "evidence": "On 10 June 2025, Mistral AI released their first AI reasoning models: Magistral Small (open-source), and Magistral Medium",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Luke Nosek",
+      "relation": "FOUNDED",
+      "target": "Confinity",
+      "evidence": "The predecessor company was originally established by Max Levchin, Peter Thiel, and Luke Nosek in December 1998 as Fieldlink.",
+      "supported": false,
+      "reason": "The evidence states they established Fieldlink (the predecessor), not Confinity."
+    },
+    {
+      "source": "Wojciech Zaremba",
+      "relation": "FOUNDED",
+      "target": "OpenAI",
+      "evidence": "OpenAI co-founder Wojciech Zaremba stated that he turned down borderline crazy offers",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Warner Bros. Television",
+      "relation": "DEVELOPS",
+      "target": "Veronica Mars",
+      "evidence": "adding more shows, including Veronica Mars and Nip/Tuck.",
+      "supported": false,
+      "reason": "The evidence does not mention Warner Bros. Television developing Veronica Mars."
+    },
+    {
+      "source": "SpaceX Super Intelligence",
+      "relation": "HEADQUARTERED_IN",
+      "target": "San Francisco Bay Area",
+      "evidence": "xAI was headquartered in the San Francisco Bay Area.",
+      "supported": false,
+      "reason": "The evidence states xAI was headquartered there, not SpaceX Super Intelligence."
+    },
+    {
+      "source": "Halsey Minor",
+      "relation": "INVESTED_IN",
+      "target": "Salesforce",
+      "evidence": "Two of Salesforce's earliest investors were Larry Ellison, the co-founder and first CEO of Oracle, and Halsey Minor, the founder of CNET.",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Peter Thiel",
+      "relation": "INVESTED_IN",
+      "target": "Google DeepMind",
+      "evidence": "as well as entrepreneurs Scott Banister, Peter Thiel, and Elon Musk.",
+      "supported": false,
+      "reason": "The evidence lists them as entrepreneurs/investors generally, but does not specify they invested in Google DeepMind."
+    },
+    {
+      "source": "Oracle Corporation",
+      "relation": "INVESTED_IN",
+      "target": "Stargate",
+      "evidence": "...Stargate, a joint venture by Oracle, OpenAI, SoftBank and investment firm MGX to invest $500 billion...",
+      "supported": false,
+      "reason": "Oracle is part of a joint venture to invest, rather than being an investor in Stargate."
+    },
+    {
+      "source": "Durk Kingma",
+      "relation": "FOUNDED",
+      "target": "OpenAI",
+      "evidence": "In December 2015, OpenAI was founded as the nonprofit organization OpenAI, Inc., by Elon Musk, Sam Altman, Ilya Sutskever, Greg Brockman, Trevor Blackwell, Vicki Cheung, Andrej Karpathy, Durk Kingma, John Schulman, Pamela Vagata, and Wojciech Zaremba",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Noah Glass",
+      "relation": "FOUNDED",
+      "target": "X Corp.",
+      "evidence": "The platform was created in March 2006 by Jack Dorsey, Noah Glass, Biz Stone, and Evan Williams",
+      "supported": false,
+      "reason": "The evidence refers to the creation of the platform (Twitter/X), but the target entity is X Corp., and Noah Glass is listed as a creator."
+    },
+    {
+      "source": "Netflix",
+      "relation": "PARTNERS_WITH",
+      "target": "The CW",
+      "evidence": "In October 2011, Netflix and The CW signed a multi-year output deal for its television shows.",
+      "supported": true,
+      "reason": null
+    },
+    {
+      "source": "Google",
+      "relation": "DEVELOPS",
+      "target": "Photos",
+      "evidence": "photo storage (Photos)",
+      "supported": true,
+      "reason": "The evidence links Photos to Google via storage description."
+    },
+    {
+      "source": "United States District Court for the Northern District of California",
+      "relation": "HEADQUARTERED_IN",
+      "target": "California",
+      "evidence": "United States District Court for the Northern District of California",
+      "supported": true,
+      "reason": "The court's name explicitly indicates it is in California."
+    },
+    {
+      "source": "Manuel Kroiss",
+      "relation": "FOUNDED",
+      "target": "SpaceX Super Intelligence",
+      "evidence": "The company's founding team of AI researchers were Jimmy Ba, Zihang Dai, Kyle Kosic, Manuel Kroiss, Ross Nordeen, Toby Pohlen, Christian Szegedy, Yuhuai Wu, Greg Yang, and Guodong Zhang",
+      "supported": true,
+      "reason": "Manuel Kroiss is listed as part of the founding team."
+    },
+    {
+      "source": "Larry Stenger",
+      "relation": "FOUNDED",
+      "target": "Advanced Micro Devices",
+      "evidence": "...Jim Giles, and Larry Stenger, on May 1, 1969.",
+      "supported": false,
+      "reason": "The evidence mentions Larry Stenger as a founder but does not state the company was Advanced Micro Devices."
+    },
+    {
+      "source": "Anthropic",
+      "relation": "DEVELOPS",
+      "target": "Design",
+      "evidence": "Anthropic's agent harnesses: Claude Code, Cowork, Design, and Science.",
+      "supported": true,
+      "reason": "Design is listed under Anthropic's agent harnesses, indicating development."
+    },
+    {
+      "source": "Tim Hanson",
+      "relation": "FOUNDED",
+      "target": "Neuralink",
+      "evidence": "Neuralink was founded in 2016 by Elon Musk and a founding team of eight scientists and engineers: ... Tim Hanson",
+      "supported": true,
+      "reason": "Tim Hanson is listed as a member of the founding team of Neuralink."
+    },
+    {
+      "source": "Google",
+      "relation": "INVESTED_IN",
+      "target": "Anthropic",
+      "evidence": "Google also invested in the company.",
+      "supported": true,
+      "reason": "The evidence explicitly states Google invested in the company."
+    },
+    {
+      "source": "Allen Wu",
+      "relation": "CEO_OF",
+      "target": "Arm China",
+      "evidence": "In February 2022, Allen Wu, the CEO of Arm China, floated the idea of a public offering of the Chinese subsidiary in 2025.",
+      "supported": true,
+      "reason": "The evidence states Allen Wu is the CEO of Arm China."
+    },
+    {
+      "source": "SpaceX Super Intelligence",
+      "relation": "ACQUIRED",
+      "target": "X Corp.",
+      "evidence": "xAI acquired sister company X Corp.",
+      "supported": false,
+      "reason": "The evidence states xAI acquired X Corp., not SpaceX Super Intelligence."
+    },
+    {
+      "source": "Jawed Karim",
+      "relation": "FOUNDED",
+      "target": "YouTube",
+      "evidence": "Titled \"Me at the zoo\", it shows co-founder Jawed Karim at the San Diego Zoo and can still be viewed on the site.",
+      "supported": true,
+      "reason": "Jawed Karim is explicitly referred to as co-founder of YouTube."
+    },
+    {
+      "source": "Larry Page",
+      "relation": "OWNS",
+      "target": "Google",
+      "evidence": "Together, they own about 14% of its publicly listed shares and control 56% of its stockholder voting power through super-voting stock.",
+      "supported": false,
+      "reason": "The evidence states they own a stake in its shares, but does not explicitly support the 'OWNS' relation for the entire entity as defined."
+    },
+    {
+      "source": "Erica Brescia",
+      "relation": "WORKS_FOR",
+      "target": "Bitnami",
+      "evidence": "former Bitnami chief operating officer (COO) and co-founder, Erica Brescia",
+      "supported": false,
+      "reason": "Chief operating officer is an executive position (CEO/COO), notWORKS_FOR as defined (not CEO)."
+    },
+    {
+      "source": "YouTube",
+      "relation": "HEADQUARTERED_IN",
+      "target": "San Bruno",
+      "evidence": "In October 2006, YouTube moved to a new office in San Bruno, California.",
+      "supported": true,
+      "reason": "YouTube moved its office to San Bruno, California."
+    },
+    {
+      "source": "Salesforce",
+      "relation": "DEVELOPS",
+      "target": "Headless 360",
+      "evidence": "Salesforce introduced Headless 360 at its annual TDX developer conference in April 2026.",
+      "supported": true,
+      "reason": "Salesforce introduced Headless 360, supporting development."
+    },
+    {
+      "source": "Silver Lake",
+      "relation": "OWNS",
+      "target": "TikTok",
+      "evidence": "...with Oracle, MGX and private equity firm Silver Lake each owning a 15% stake in the venture...",
+      "supported": false,
+      "reason": "The evidence mentions ownership of a stake in the venture, but does not state Silver Lake owns TikTok."
+    }
+  ]
+}

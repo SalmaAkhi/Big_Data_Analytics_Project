@@ -1,0 +1,71 @@
+{
+  "wikidata_recall": {
+    "per_relation": {
+      "FOUNDED": {
+        "facts": 98,
+        "found": 58,
+        "in_text": 86,
+        "found_in_text": 57,
+        "recall_all": 0.592,
+        "recall_in_text": 0.663
+      },
+      "HEADQUARTERED_IN": {
+        "facts": 45,
+        "found": 28,
+        "in_text": 37,
+        "found_in_text": 28,
+        "recall_all": 0.622,
+        "recall_in_text": 0.757
+      },
+      "CEO_OF": {
+        "facts": 33,
+        "found": 16,
+        "in_text": 20,
+        "found_in_text": 15,
+        "recall_all": 0.485,
+        "recall_in_text": 0.75
+      },
+      "SUBSIDIARY_OF": {
+        "facts": 8,
+        "found": 6,
+        "in_text": 8,
+        "found_in_text": 6,
+        "recall_all": 0.75,
+        "recall_in_text": 0.75
+      },
+      "OWNED_BY": {
+        "facts": 55,
+        "found": 8,
+        "in_text": 19,
+        "found_in_text": 6,
+        "recall_all": 0.145,
+        "recall_in_text": 0.316
+      }
+    },
+    "total": {
+      "facts": 239,
+      "found": 116,
+      "in_text": 170,
+      "found_in_text": 112,
+      "recall_all": 0.485,
+      "recall_in_text": 0.659
+    }
+  },
+  "judged_precision": {
+    "sample": 60,
+    "precision": 0.717,
+    "per_relation": {
+      "PARTNERS_WITH": 1.0,
+      "INVESTED_IN": 0.667,
+      "WORKS_FOR": 0.333,
+      "HEADQUARTERED_IN": 0.8,
+      "FOUNDED": 0.727,
+      "DEVELOPS": 0.667,
+      "RELATED_TO": 1.0,
+      "OWNS": 0.5,
+      "CEO_OF": 1.0,
+      "SUBSIDIARY_OF": 1.0,
+      "ACQUIRED": 0.667
+    }
+  }
+}

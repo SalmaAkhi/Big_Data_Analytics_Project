@@ -1,0 +1,64 @@
+id,category,question,approach,recall,exact,latency_s,input_tokens,output_tokens,cost_usd,answer
+Q01,single_hop,Who founded Nvidia?,Cypher expert,1.0,1,0.058,0,0,0.0,Chris Malachowsky; Curtis Priem; Jensen Huang
+Q01,single_hop,Who founded Nvidia?,Text2Cypher,1.0,1,0.81,446,59,6.8e-05,Chris Malachowsky; Nvidia; Curtis Priem; Jensen Huang
+Q01,single_hop,Who founded Nvidia?,GraphRAG,1.0,1,4.243,4941,88,0.000529,"Nvidia was founded by Jensen Huang, Chris Malachowsky, and Curtis Priem in 1993."
+Q02,single_hop,Which company acquired GitHub?,Cypher expert,1.0,1,0.064,0,0,0.0,Microsoft
+Q02,single_hop,Which company acquired GitHub?,Text2Cypher,1.0,1,0.845,447,58,6.8e-05,Microsoft; GitHub
+Q02,single_hop,Which company acquired GitHub?,GraphRAG,1.0,1,1.718,4956,58,0.000519,Microsoft acquired GitHub.
+Q03,single_hop,Which company acquired Red Hat?,Cypher expert,1.0,1,0.023,0,0,0.0,IBM
+Q03,single_hop,Which company acquired Red Hat?,Text2Cypher,1.0,1,0.945,448,49,6.4e-05,IBM
+Q03,single_hop,Which company acquired Red Hat?,GraphRAG,1.0,1,1.765,4283,60,0.000452,IBM acquired Red Hat.
+Q04,single_hop,Which company acquired VMware?,Cypher expert,1.0,1,0.014,0,0,0.0,Broadcom; EMC
+Q04,single_hop,Which company acquired VMware?,Text2Cypher,1.0,1,0.918,447,59,6.8e-05,Broadcom; VMware; EMC
+Q04,single_hop,Which company acquired VMware?,GraphRAG,1.0,1,1.648,2666,69,0.000294,Broadcom acquired VMware.
+Q05,single_hop,Which company acquired Mobileye?,Cypher expert,1.0,1,0.018,0,0,0.0,Intel
+Q05,single_hop,Which company acquired Mobileye?,Text2Cypher,1.0,1,2.99,448,59,6.8e-05,Intel; Mobileye Global Inc.
+Q05,single_hop,Which company acquired Mobileye?,GraphRAG,1.0,1,37.251,5007,69,0.000528,Intel acquired Mobileye Global Inc. in 2017.
+Q06,single_hop,Who is the CEO of Nvidia?,Cypher expert,1.0,1,0.051,0,0,0.0,Jensen Huang
+Q06,single_hop,Who is the CEO of Nvidia?,Text2Cypher,1.0,1,1.199,449,48,6.4e-05,Jensen Huang
+Q06,single_hop,Who is the CEO of Nvidia?,GraphRAG,1.0,1,1.822,4922,72,0.000521,Jensen Huang is the CEO of Nvidia.
+Q07,single_hop,Where is Apple headquartered?,Cypher expert,1.0,1,0.041,0,0,0.0,"Cupertino, California"
+Q07,single_hop,Where is Apple headquartered?,Text2Cypher,1.0,1,0.802,447,53,6.6e-05,"Cupertino, California"
+Q07,single_hop,Where is Apple headquartered?,GraphRAG,1.0,1,1.909,4782,62,0.000503,"Apple is headquartered in Cupertino, California."
+Q08,aggregation,Which companies has Microsoft acquired?,Cypher expert,1.0,1,0.03,0,0,0.0,Activision Blizzard; GitHub; LinkedIn; Nokia; Skype
+Q08,aggregation,Which companies has Microsoft acquired?,Text2Cypher,1.0,1,0.731,448,50,6.5e-05,Activision Blizzard; GitHub; LinkedIn; Nokia; Skype
+Q08,aggregation,Which companies has Microsoft acquired?,GraphRAG,1.0,1,1.694,4911,96,0.000529,"Microsoft has acquired LinkedIn, Activision Blizzard, GitHub, Skype, and Nokia."
+Q09,aggregation,Which companies did Elon Musk found or co-found?,Cypher expert,1.0,1,0.034,0,0,0.0,Anthropic; Neuralink; OpenAI; SpaceX; SpaceX Super Intelligence; Tesla; X.com; xAI
+Q09,aggregation,Which companies did Elon Musk found or co-found?,Text2Cypher,1.0,1,0.876,453,50,6.5e-05,Anthropic; Neuralink; OpenAI; SpaceX; SpaceX Super Intelligence; Tesla; X.com; xAI
+Q09,aggregation,Which companies did Elon Musk found or co-found?,GraphRAG,1.0,1,2.176,5250,152,0.000586,"Elon Musk founded or co-founded the following companies based on the provided facts: OpenAI, Anthropic, Tesla, SpaceX, SpaceX Super Intelligence (also known as xAI), X.com, and Neuralink."
+Q10,aggregation,Which companies has Google acquired?,Cypher expert,0.667,0,0.038,0,0,0.0,Google DeepMind; YouTube; Looker
+Q10,aggregation,Which companies has Google acquired?,Text2Cypher,0.667,0,0.886,448,52,6.6e-05,Google DeepMind; YouTube
+Q10,aggregation,Which companies has Google acquired?,GraphRAG,0.667,0,4.654,4452,91,0.000482,"Based on the provided facts, Google has acquired YouTube, Looker, and Google DeepMind."
+Q11,multi_hop,Who founded the company that acquired Instagram?,Cypher expert,0.0,0,0.127,0,0,0.0,(aucun résultat)
+Q11,multi_hop,Who founded the company that acquired Instagram?,Text2Cypher,0.0,0,19.738,450,62,7e-05,(aucun résultat)
+Q11,multi_hop,Who founded the company that acquired Instagram?,GraphRAG,0.0,0,2.106,4986,110,0.000543,"The company that acquired Instagram is Meta Platforms (formerly Facebook, Inc.). Based on the provided facts, the specific individuals who founded Facebook are not listed, but the facts indicate that Kevin Systrom and Mike Krieger founded Instagram, and Meta Platforms (Facebook, Inc.) acquired it."
+Q12,multi_hop,Where is the company that acquired Red Hat headquartered?,Cypher expert,1.0,1,0.121,0,0,0.0,"Armonk, New York"
+Q12,multi_hop,Where is the company that acquired Red Hat headquartered?,Text2Cypher,1.0,1,1.032,452,69,7.3e-05,"Armonk, New York"
+Q12,multi_hop,Where is the company that acquired Red Hat headquartered?,GraphRAG,1.0,1,1.787,4291,84,0.000463,"The company that acquired Red Hat is IBM, and it is headquartered in Armonk, New York."
+Q13,multi_hop,Who is the CEO of the company that develops ChatGPT?,Cypher expert,1.0,1,0.076,0,0,0.0,Sam Altman
+Q13,multi_hop,Who is the CEO of the company that develops ChatGPT?,Text2Cypher,1.0,1,1.404,453,73,7.5e-05,Sam Altman; OpenAI
+Q13,multi_hop,Who is the CEO of the company that develops ChatGPT?,GraphRAG,1.0,1,2.684,5046,77,0.000535,"Sam Altman is the CEO of OpenAI, the company that develops ChatGPT."
+Q14,multi_hop,Who founded the company that acquired DeepMind?,Cypher expert,1.0,1,0.126,0,0,0.0,Larry Page; Sergey Brin
+Q14,multi_hop,Who founded the company that acquired DeepMind?,Text2Cypher,1.0,1,0.872,451,67,7.2e-05,Sergey Brin; Larry Page
+Q14,multi_hop,Who founded the company that acquired DeepMind?,GraphRAG,1.0,1,2.848,4599,83,0.000493,"Google, the company that acquired DeepMind, was founded by Larry Page and Sergey Brin."
+Q15,multi_hop,"Who founded the company that develops Claude, and which company did they work for before?",Cypher expert,0.667,0,0.126,0,0,0.0,Daniela Amodei; Dario Amodei; Elon Musk
+Q15,multi_hop,"Who founded the company that develops Claude, and which company did they work for before?",Text2Cypher,0.667,0,1.121,459,108,8.9e-05,Daniela Amodei; Anthropic; Dario Amodei; Elon Musk; Neuralink; X Corp.; Tesla; X.com
+Q15,multi_hop,"Who founded the company that develops Claude, and which company did they work for before?",GraphRAG,1.0,1,1.785,3377,91,0.000374,"Anthropic, the company that develops Claude, was founded by former members of OpenAI, specifically Daniela Amodei and Dario Amodei."
+Q16,multi_hop,Which companies invested in the company that develops Claude?,Cypher expert,1.0,1,0.146,0,0,0.0,Amazon; AMD; Google; Microsoft; Nvidia
+Q16,multi_hop,Which companies invested in the company that develops Claude?,Text2Cypher,1.0,1,18.161,452,66,7.2e-05,Amazon; AMD; Google; Microsoft; Nvidia
+Q16,multi_hop,Which companies invested in the company that develops Claude?,GraphRAG,1.0,1,25.974,4814,100,0.000521,"The companies that invested in Anthropic (the company that develops Claude) are Google, Microsoft, Nvidia, Amazon, AMD, and Fidelity."
+Q17,multi_hop,Who is the CEO of the company that owns WhatsApp?,Cypher expert,1.0,1,0.062,0,0,0.0,Mark Zuckerberg
+Q17,multi_hop,Who is the CEO of the company that owns WhatsApp?,Text2Cypher,0.0,0,1.414,453,65,7.1e-05,(aucun résultat)
+Q17,multi_hop,Who is the CEO of the company that owns WhatsApp?,GraphRAG,1.0,1,1.85,2432,87,0.000278,"Mark Zuckerberg is the CEO of Meta Platforms, the company that owns WhatsApp."
+Q18,multi_hop,Who founded the company that acquired Slack?,Cypher expert,1.0,1,0.051,0,0,0.0,Dave Moellenhoff; Frank Dominguez; Marc Benioff; Parker Harris
+Q18,multi_hop,Who founded the company that acquired Slack?,Text2Cypher,1.0,1,0.905,450,69,7.3e-05,Dave Moellenhoff; Salesforce; Frank Dominguez; Marc Benioff; Parker Harris
+Q18,multi_hop,Who founded the company that acquired Slack?,GraphRAG,0.0,0,1.799,4881,87,0.000523,"The company that acquired Slack is Salesforce, but the provided knowledge-graph facts do not contain information about who founded Salesforce."
+Q19,semantic,Which companies design semiconductor chips or GPUs?,Cypher expert,0.8,0,0.04,0,0,0.0,Advanced Micro Devices; AMD; ARC International; Arm Holdings; ASML; Borui Jingxin; Broadcom; CyOptics; Cypress Semiconductor; Fairchild; Fairchild Semiconductor; Freescale; Freescale Semiconductor; General Compute; GlobalFoundries; HP Associates; Huawei; Imagination Technologies; Intel; iZettle; KKR; Korea Semiconductor; Motorola; National Semiconductor; NXP Semiconductors; Samsung Electronics; Samsung Semiconductor & Communications; Silver Lake Partners; Simplismart; Texas Instruments
+Q19,semantic,Which companies design semiconductor chips or GPUs?,Text2Cypher,0.2,0,1.191,450,92,8.2e-05,Simplismart; Intel
+Q19,semantic,Which companies design semiconductor chips or GPUs?,GraphRAG,0.8,0,2.009,4967,112,0.000541,"Companies that design semiconductor chips or GPUs based on the provided facts include Nvidia, Intel, Arm Holdings, Advanced Micro Devices (AMD), and ATI Technologies."
+Q20,semantic,Which companies build large language models or AI chatbots?,Cypher expert,1.0,1,0.036,0,0,0.0,Amazon; Anthropic; DeepMind; DeepSeek; Emmi AI; Federos; Geometric Intelligence; Google; Google Brain; Google DeepMind; Hugging Face; Isomorphic Labs; JP Morgan Chase; Koyeb; Lockheed Martin; Mentee Robotics; Meta AI; MiniMax Group; Mistral AI; Moonshot AI; OpenAI; Rapid7; Reflection AI; Safe Superintelligence Inc.; Simplismart; SpaceX Super Intelligence; Thinking Machines Lab; Uber AI; Weavy; Weviate; xAI
+Q20,semantic,Which companies build large language models or AI chatbots?,Text2Cypher,0.6,0,1.535,452,122,9.4e-05,AMD; Claude; Anthropic; Google; Gemini; Google DeepMind; Gemma; SpaceX Super Intelligence; Grok; xAI
+Q20,semantic,Which companies build large language models or AI chatbots?,GraphRAG,0.6,0,2.51,5425,130,0.000594,"Based on the provided facts, the companies that develop large language models or AI chatbots are OpenAI (which develops ChatGPT and the GPT family of models) and Anthropic (which develops Claude and the Claude family of models), as well as Google DeepMind (which develops Gemini and Gemma)."
+Q21,semantic,Which companies are involved in electric vehicles or spaceflight?,Cypher expert,1.0,1,0.014,0,0,0.0,Boeing; HTC; Kistler Aerospace; Netscape; Nio; SpaceX; SpaceX Super Intelligence; SpaceXAI; SpaceXSI; Tesla Motors; TRW; xAI
+Q21,semantic,Which companies are involved in electric vehicles or spaceflight?,Text2Cypher,1.0,1,1.02,453,122,9.4e-05,Advanced Micro Devices; Boeing; Elevate; HTC; Kistler Aerospace; Netscape; Nio; Software Development Laboratories; Sony Pictures Television; SpaceX; SpaceX Super Intelligence; SpaceXAI; SpaceXSI; Tesla Motors; Transdev Autonomous Transport System; TRW; Warner Bros. Television; Weviate; X Development; xAI
+Q21,semantic,Which companies are involved in electric vehicles or spaceflight?,GraphRAG,1.0,1,2.035,4776,86,0.000512,"Companies involved in electric vehicles or spaceflight based on the provided facts include SpaceX, Tesla, and SolarCity."

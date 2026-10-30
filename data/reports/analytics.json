@@ -1,0 +1,1182 @@
+{
+  "projection": {
+    "nodeCount": 1473,
+    "relationshipCount": 2648
+  },
+  "algorithms": {
+    "pagerank": {
+      "result": {
+        "nodePropertiesWritten": 1473
+      },
+      "seconds": 0.369
+    },
+    "louvain": {
+      "result": {
+        "communityCount": 406,
+        "modularity": 0.8568000930988219
+      },
+      "seconds": 0.661
+    },
+    "betweenness": {
+      "result": {
+        "nodePropertiesWritten": 1473
+      },
+      "seconds": 0.523
+    },
+    "degree": {
+      "result": {
+        "nodePropertiesWritten": 1473
+      },
+      "seconds": 0.185
+    },
+    "wcc": {
+      "result": {
+        "componentCount": 385
+      },
+      "seconds": 0.133
+    }
+  },
+  "queries": {
+    "Statistiques par type d'entité": {
+      "cypher": "MATCH (e:Entity) RETURN e.type AS type, count(*) AS entites ORDER BY entites DESC",
+      "rows": [
+        {
+          "type": "Company",
+          "entites": 483
+        },
+        {
+          "type": "Product",
+          "entites": 412
+        },
+        {
+          "type": "Person",
+          "entites": 290
+        },
+        {
+          "type": "Location",
+          "entites": 104
+        },
+        {
+          "type": "Organization",
+          "entites": 103
+        },
+        {
+          "type": "Technology",
+          "entites": 81
+        }
+      ],
+      "ms": 103.9
+    },
+    "Statistiques par type de relation": {
+      "cypher": "MATCH ()-[r]->() WHERE type(r) <> 'MENTIONED_IN'\n        RETURN type(r) AS relation, count(*) AS nombre ORDER BY nombre DESC",
+      "rows": [
+        {
+          "relation": "DEVELOPS",
+          "nombre": 403
+        },
+        {
+          "relation": "FOUNDED",
+          "nombre": 167
+        },
+        {
+          "relation": "ACQUIRED",
+          "nombre": 125
+        },
+        {
+          "relation": "INVESTED_IN",
+          "nombre": 125
+        },
+        {
+          "relation": "PARTNERS_WITH",
+          "nombre": 107
+        },
+        {
+          "relation": "CEO_OF",
+          "nombre": 80
+        },
+        {
+          "relation": "WORKS_FOR",
+          "nombre": 70
+        },
+        {
+          "relation": "HEADQUARTERED_IN",
+          "nombre": 60
+        },
+        {
+          "relation": "SUBSIDIARY_OF",
+          "nombre": 53
+        },
+        {
+          "relation": "COMPETES_WITH",
+          "nombre": 50
+        },
+        {
+          "relation": "RELATED_TO",
+          "nombre": 45
+        },
+        {
+          "relation": "OWNS",
+          "nombre": 39
+        }
+      ],
+      "ms": 95.3
+    },
+    "Entités les plus connectées (degré)": {
+      "cypher": "MATCH (e:Entity)-[r]-(:Entity)\n        RETURN e.name AS entite, e.type AS type, count(r) AS degre ORDER BY degre DESC LIMIT 15",
+      "rows": [
+        {
+          "entite": "Google",
+          "type": "Company",
+          "degre": 73
+        },
+        {
+          "entite": "Microsoft",
+          "type": "Company",
+          "degre": 64
+        },
+        {
+          "entite": "OpenAI",
+          "type": "Company",
+          "degre": 49
+        },
+        {
+          "entite": "Anthropic",
+          "type": "Company",
+          "degre": 46
+        },
+        {
+          "entite": "Apple",
+          "type": "Company",
+          "degre": 45
+        },
+        {
+          "entite": "IBM",
+          "type": "Company",
+          "degre": 41
+        },
+        {
+          "entite": "Mistral AI",
+          "type": "Company",
+          "degre": 40
+        },
+        {
+          "entite": "Nvidia",
+          "type": "Company",
+          "degre": 37
+        },
+        {
+          "entite": "Uber",
+          "type": "Company",
+          "degre": 37
+        },
+        {
+          "entite": "Intel",
+          "type": "Company",
+          "degre": 35
+        },
+        {
+          "entite": "Salesforce",
+          "type": "Company",
+          "degre": 35
+        },
+        {
+          "entite": "Red Hat",
+          "type": "Company",
+          "degre": 34
+        },
+        {
+          "entite": "Amazon",
+          "type": "Company",
+          "degre": 34
+        },
+        {
+          "entite": "Google DeepMind",
+          "type": "Company",
+          "degre": 33
+        },
+        {
+          "entite": "Tesla",
+          "type": "Company",
+          "degre": 31
+        }
+      ],
+      "ms": 167.2
+    },
+    "Acquisitions (qui a racheté qui)": {
+      "cypher": "MATCH (a:Entity)-[r:ACQUIRED]->(b:Entity)\n        RETURN a.name AS acquereur, b.name AS cible, r.weight AS mentions ORDER BY a.name LIMIT 50",
+      "rows": [
+        {
+          "acquereur": "Adobe Inc.",
+          "cible": "Accelio",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Adobe Inc.",
+          "cible": "Omniture",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Adobe Inc.",
+          "cible": "Macromedia",
+          "mentions": 2
+        },
+        {
+          "acquereur": "Adobe Inc.",
+          "cible": "PageMaker",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Adobe Inc.",
+          "cible": "Macromedia Flash",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Adobe Inc.",
+          "cible": "FrameMaker",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Adobe Inc.",
+          "cible": "Photoshop",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Adobe Inc.",
+          "cible": "After Effects",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Advanced Micro Devices",
+          "cible": "Xilinx",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Amazon",
+          "cible": "Twitch",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Amazon",
+          "cible": "Ring",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Amazon",
+          "cible": "Kiva Systems",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Amazon",
+          "cible": "Goodreads",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Amazon",
+          "cible": "Whole Foods Market",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Amazon",
+          "cible": "Audible",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Anthropic",
+          "cible": "Stainless",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Anthropic",
+          "cible": "Bun",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Apple",
+          "cible": "NeXT",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Aurora Innovation",
+          "cible": "Uber Advanced Technologies Group",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Avago Technologies Limited",
+          "cible": "PLX Technology",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Avago Technologies Limited",
+          "cible": "LSI Corporation",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Avago Technologies Limited",
+          "cible": "Infineon Technologies",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Avago Technologies Limited",
+          "cible": "Emulex Corporation",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Avago Technologies Limited",
+          "cible": "CyOptics",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Avago Technologies Limited",
+          "cible": "Broadcom",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Broadcom",
+          "cible": "VMware",
+          "mentions": 3
+        },
+        {
+          "acquereur": "Broadcom",
+          "cible": "Symantec Corporation",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Broadcom",
+          "cible": "CA Technologies",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Cisco",
+          "cible": "Granite Systems",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Cypress Semiconductor",
+          "cible": "Broadcom",
+          "mentions": 1
+        },
+        {
+          "acquereur": "EMC",
+          "cible": "VMware",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Elon Musk",
+          "cible": "X Corp.",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Facebook",
+          "cible": "WhatsApp",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Facebook",
+          "cible": "Instagram",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Figma",
+          "cible": "Weavy",
+          "mentions": 1
+        },
+        {
+          "acquereur": "GitHub",
+          "cible": "Semmle",
+          "mentions": 1
+        },
+        {
+          "acquereur": "GitHub",
+          "cible": "npm",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Google",
+          "cible": "Looker",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Google",
+          "cible": "YouTube",
+          "mentions": 2
+        },
+        {
+          "acquereur": "Google",
+          "cible": "Google DeepMind",
+          "mentions": 1
+        },
+        {
+          "acquereur": "IBM",
+          "cible": "Red Hat",
+          "mentions": 1
+        },
+        {
+          "acquereur": "IBM",
+          "cible": "Lenovo",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Intel",
+          "cible": "Moovit",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Intel",
+          "cible": "Mobileye Global Inc.",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Joby Aviation",
+          "cible": "Elevate",
+          "mentions": 1
+        },
+        {
+          "acquereur": "KKR",
+          "cible": "End-User Computing",
+          "mentions": 1
+        },
+        {
+          "acquereur": "KKR",
+          "cible": "Agilent Technologies",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Korea Telecommunications",
+          "cible": "Korea Semiconductor",
+          "mentions": 1
+        },
+        {
+          "acquereur": "LinkedIn",
+          "cible": "Mspoke",
+          "mentions": 1
+        },
+        {
+          "acquereur": "Meta Platforms",
+          "cible": "Instagram",
+          "mentions": 1
+        }
+      ],
+      "ms": 139.6
+    },
+    "Fondateurs en série (≥ 2 entreprises)": {
+      "cypher": "MATCH (p:Person)-[:FOUNDED]->(c)\n        WITH p, collect(DISTINCT c.name) AS entreprises WHERE size(entreprises) >= 2\n        RETURN p.name AS fondateur, entreprises, size(entreprises) AS n ORDER BY n DESC",
+      "rows": [
+        {
+          "fondateur": "Elon Musk",
+          "entreprises": [
+            "Anthropic",
+            "Neuralink",
+            "OpenAI",
+            "SpaceX",
+            "SpaceX Super Intelligence",
+            "Tesla",
+            "X.com",
+            "xAI"
+          ],
+          "n": 8
+        },
+        {
+          "fondateur": "Amnon Shashua",
+          "entreprises": [
+            "Mentee Robotics",
+            "Mobileye Global Inc."
+          ],
+          "n": 2
+        },
+        {
+          "fondateur": "Andy Bechtolsheim",
+          "entreprises": [
+            "Granite Systems",
+            "Sun Microsystems"
+          ],
+          "n": 2
+        },
+        {
+          "fondateur": "Benjamin Rapoport",
+          "entreprises": [
+            "Neuralink",
+            "Precision Neuroscience"
+          ],
+          "n": 2
+        },
+        {
+          "fondateur": "Bill Gates",
+          "entreprises": [
+            "Microsoft",
+            "Traf-O-Data"
+          ],
+          "n": 2
+        },
+        {
+          "fondateur": "Bob Young",
+          "entreprises": [
+            "ACC Corporation",
+            "Lulu"
+          ],
+          "n": 2
+        },
+        {
+          "fondateur": "Brian Acton",
+          "entreprises": [
+            "Signal Foundation",
+            "WhatsApp"
+          ],
+          "n": 2
+        },
+        {
+          "fondateur": "Garrett Camp",
+          "entreprises": [
+            "StumbleUpon",
+            "Uber"
+          ],
+          "n": 2
+        },
+        {
+          "fondateur": "Larry Ellison",
+          "entreprises": [
+            "Oracle Corporation",
+            "Software Development Laboratories"
+          ],
+          "n": 2
+        },
+        {
+          "fondateur": "Larry Page",
+          "entreprises": [
+            "Alphabet Inc.",
+            "Google"
+          ],
+          "n": 2
+        },
+        {
+          "fondateur": "Mike Krieger",
+          "entreprises": [
+            "Burbn",
+            "Instagram"
+          ],
+          "n": 2
+        },
+        {
+          "fondateur": "Paul Allen",
+          "entreprises": [
+            "Microsoft",
+            "Traf-O-Data"
+          ],
+          "n": 2
+        },
+        {
+          "fondateur": "Sergey Brin",
+          "entreprises": [
+            "Alphabet Inc.",
+            "Google"
+          ],
+          "n": 2
+        },
+        {
+          "fondateur": "Steve Jobs",
+          "entreprises": [
+            "Apple",
+            "NeXT"
+          ],
+          "n": 2
+        },
+        {
+          "fondateur": "Systrom",
+          "entreprises": [
+            "Burbn",
+            "Instagram"
+          ],
+          "n": 2
+        }
+      ],
+      "ms": 134.4
+    },
+    "Multi-hop : fondateurs des entreprises acquises par Google/Alphabet": {
+      "cypher": "MATCH (g:Company)-[:ACQUIRED|OWNS]->(c)<-[:FOUNDED]-(p:Person)\n        WHERE toLower(g.name) CONTAINS 'google' OR toLower(g.name) CONTAINS 'alphabet'\n        RETURN g.name AS acquereur, c.name AS entreprise, collect(p.name) AS fondateurs",
+      "rows": [
+        {
+          "acquereur": "Google",
+          "entreprise": "YouTube",
+          "fondateurs": [
+            "Chad Hurley",
+            "Chad Hurley",
+            "Jawed Karim",
+            "Jawed Karim",
+            "Steve Chen",
+            "Steve Chen"
+          ]
+        },
+        {
+          "acquereur": "Google",
+          "entreprise": "Google DeepMind",
+          "fondateurs": [
+            "Demis Hassabis",
+            "Mustafa Suleyman",
+            "Shane Legg"
+          ]
+        }
+      ],
+      "ms": 204.6
+    },
+    "Plus court chemin Elon Musk → Microsoft": {
+      "cypher": "MATCH (a:Entity), (b:Entity)\n        WHERE toLower(a.name) CONTAINS 'elon musk' AND toLower(b.name) = 'microsoft'\n        MATCH p = shortestPath((a)-[*..6]-(b))\n        WHERE none(r IN relationships(p) WHERE type(r) = 'MENTIONED_IN')\n        RETURN [n IN nodes(p) | n.name] AS chemin, [r IN relationships(p) | type(r)] AS relations LIMIT 1",
+      "rows": [
+        {
+          "chemin": [
+            "Elon Musk",
+            "OpenAI",
+            "Microsoft"
+          ],
+          "relations": [
+            "INVESTED_IN",
+            "INVESTED_IN"
+          ]
+        }
+      ],
+      "ms": 291.6
+    },
+    "Villes avec le plus de sièges sociaux": {
+      "cypher": "MATCH (c)-[:HEADQUARTERED_IN]->(l:Location)\n        RETURN l.name AS lieu, collect(c.name) AS entreprises, count(c) AS n ORDER BY n DESC LIMIT 10",
+      "rows": [
+        {
+          "lieu": "San Francisco",
+          "entreprises": [
+            "Anthropic",
+            "GitHub",
+            "Neuralink",
+            "OpenAI",
+            "Salesforce",
+            "Twitter",
+            "Uber"
+          ],
+          "n": 7
+        },
+        {
+          "lieu": "Austin",
+          "entreprises": [
+            "Oracle Corporation",
+            "Tesla"
+          ],
+          "n": 2
+        },
+        {
+          "lieu": "California",
+          "entreprises": [
+            "Activision Blizzard",
+            "United States District Court for the Northern District of California"
+          ],
+          "n": 2
+        },
+        {
+          "lieu": "Singapore",
+          "entreprises": [
+            "Broadcom",
+            "Intel"
+          ],
+          "n": 2
+        },
+        {
+          "lieu": "Santa Clara",
+          "entreprises": [
+            "Advanced Micro Devices",
+            "Intel"
+          ],
+          "n": 2
+        },
+        {
+          "lieu": "France",
+          "entreprises": [
+            "Mistral AI",
+            "National Assembly"
+          ],
+          "n": 2
+        },
+        {
+          "lieu": "Palo Alto, California",
+          "entreprises": [
+            "Broadcom",
+            "VMware"
+          ],
+          "n": 2
+        },
+        {
+          "lieu": "Mountain View",
+          "entreprises": [
+            "LinkedIn",
+            "WhatsApp"
+          ],
+          "n": 2
+        },
+        {
+          "lieu": "Bellevue, Washington",
+          "entreprises": [
+            "Amazon",
+            "Microsoft"
+          ],
+          "n": 2
+        },
+        {
+          "lieu": "Sunnyvale",
+          "entreprises": [
+            "Advanced Micro Devices"
+          ],
+          "n": 1
+        }
+      ],
+      "ms": 68.7
+    },
+    "Provenance : relations confirmées par plusieurs documents": {
+      "cypher": "MATCH (a)-[r]->(b) WHERE type(r) <> 'MENTIONED_IN' AND size(r.sources) >= 2\n        RETURN a.name AS source, type(r) AS relation, b.name AS cible, size(r.sources) AS nb_documents\n        ORDER BY nb_documents DESC LIMIT 20",
+      "rows": [
+        {
+          "source": "Elon Musk",
+          "relation": "FOUNDED",
+          "cible": "OpenAI",
+          "nb_documents": 3
+        },
+        {
+          "source": "OpenAI",
+          "relation": "DEVELOPS",
+          "cible": "ChatGPT",
+          "nb_documents": 3
+        },
+        {
+          "source": "Apple",
+          "relation": "DEVELOPS",
+          "cible": "iPhone",
+          "nb_documents": 3
+        },
+        {
+          "source": "Satya Nadella",
+          "relation": "CEO_OF",
+          "cible": "Microsoft",
+          "nb_documents": 3
+        },
+        {
+          "source": "Microsoft",
+          "relation": "ACQUIRED",
+          "cible": "Activision Blizzard",
+          "nb_documents": 3
+        },
+        {
+          "source": "Apple",
+          "relation": "DEVELOPS",
+          "cible": "iPad",
+          "nb_documents": 3
+        },
+        {
+          "source": "Meta Platforms",
+          "relation": "OWNS",
+          "cible": "WhatsApp",
+          "nb_documents": 3
+        },
+        {
+          "source": "Jeff Bezos",
+          "relation": "FOUNDED",
+          "cible": "Amazon",
+          "nb_documents": 2
+        },
+        {
+          "source": "Elon Musk",
+          "relation": "CEO_OF",
+          "cible": "Tesla",
+          "nb_documents": 2
+        },
+        {
+          "source": "Ilya Sutskever",
+          "relation": "FOUNDED",
+          "cible": "OpenAI",
+          "nb_documents": 2
+        },
+        {
+          "source": "Dario Amodei",
+          "relation": "CEO_OF",
+          "cible": "Anthropic",
+          "nb_documents": 2
+        },
+        {
+          "source": "Jensen Huang",
+          "relation": "CEO_OF",
+          "cible": "Nvidia",
+          "nb_documents": 2
+        },
+        {
+          "source": "Mark Zuckerberg",
+          "relation": "CEO_OF",
+          "cible": "Meta Platforms",
+          "nb_documents": 2
+        },
+        {
+          "source": "Sam Altman",
+          "relation": "CEO_OF",
+          "cible": "OpenAI",
+          "nb_documents": 2
+        },
+        {
+          "source": "Sam Altman",
+          "relation": "FOUNDED",
+          "cible": "OpenAI",
+          "nb_documents": 2
+        },
+        {
+          "source": "Greg Brockman",
+          "relation": "FOUNDED",
+          "cible": "OpenAI",
+          "nb_documents": 2
+        },
+        {
+          "source": "Broadcom",
+          "relation": "ACQUIRED",
+          "cible": "VMware",
+          "nb_documents": 2
+        },
+        {
+          "source": "Sundar Pichai",
+          "relation": "CEO_OF",
+          "cible": "Google",
+          "nb_documents": 2
+        },
+        {
+          "source": "eBay",
+          "relation": "ACQUIRED",
+          "cible": "PayPal",
+          "nb_documents": 2
+        },
+        {
+          "source": "Mike Krieger",
+          "relation": "FOUNDED",
+          "cible": "Instagram",
+          "nb_documents": 2
+        }
+      ],
+      "ms": 132.6
+    },
+    "Top PageRank (influence)": {
+      "cypher": "MATCH (e:Entity) WHERE e.pagerank IS NOT NULL\n        RETURN e.name AS entite, e.type AS type, round(e.pagerank, 3) AS pagerank ORDER BY pagerank DESC LIMIT 15",
+      "rows": [
+        {
+          "entite": "Google",
+          "type": "Company",
+          "pagerank": 24.765
+        },
+        {
+          "entite": "Microsoft",
+          "type": "Company",
+          "pagerank": 21.689
+        },
+        {
+          "entite": "Apple",
+          "type": "Company",
+          "pagerank": 16.288
+        },
+        {
+          "entite": "IBM",
+          "type": "Company",
+          "pagerank": 15.484
+        },
+        {
+          "entite": "OpenAI",
+          "type": "Company",
+          "pagerank": 15.193
+        },
+        {
+          "entite": "Anthropic",
+          "type": "Company",
+          "pagerank": 15.164
+        },
+        {
+          "entite": "Mistral AI",
+          "type": "Company",
+          "pagerank": 14.261
+        },
+        {
+          "entite": "Red Hat",
+          "type": "Company",
+          "pagerank": 13.792
+        },
+        {
+          "entite": "Uber",
+          "type": "Company",
+          "pagerank": 13.412
+        },
+        {
+          "entite": "Nvidia",
+          "type": "Company",
+          "pagerank": 12.884
+        },
+        {
+          "entite": "Salesforce",
+          "type": "Company",
+          "pagerank": 12.719
+        },
+        {
+          "entite": "Adobe Inc.",
+          "type": "Company",
+          "pagerank": 11.652
+        },
+        {
+          "entite": "Intel",
+          "type": "Company",
+          "pagerank": 11.561
+        },
+        {
+          "entite": "Amazon",
+          "type": "Company",
+          "pagerank": 11.522
+        },
+        {
+          "entite": "Netflix",
+          "type": "Company",
+          "pagerank": 11.471
+        }
+      ],
+      "ms": 103.0
+    },
+    "Top Betweenness (entités « pont »)": {
+      "cypher": "MATCH (e:Entity) WHERE e.betweenness IS NOT NULL\n        RETURN e.name AS entite, e.type AS type, round(e.betweenness, 1) AS betweenness ORDER BY betweenness DESC LIMIT 15",
+      "rows": [
+        {
+          "entite": "Microsoft",
+          "type": "Company",
+          "betweenness": 171802.1
+        },
+        {
+          "entite": "Anthropic",
+          "type": "Company",
+          "betweenness": 105598.8
+        },
+        {
+          "entite": "Google",
+          "type": "Company",
+          "betweenness": 104174.4
+        },
+        {
+          "entite": "OpenAI",
+          "type": "Company",
+          "betweenness": 76738.9
+        },
+        {
+          "entite": "Nvidia",
+          "type": "Company",
+          "betweenness": 74760.1
+        },
+        {
+          "entite": "Intel",
+          "type": "Company",
+          "betweenness": 68159.6
+        },
+        {
+          "entite": "Mistral AI",
+          "type": "Company",
+          "betweenness": 64169.9
+        },
+        {
+          "entite": "Uber",
+          "type": "Company",
+          "betweenness": 62765.3
+        },
+        {
+          "entite": "IBM",
+          "type": "Company",
+          "betweenness": 62710.3
+        },
+        {
+          "entite": "Apple",
+          "type": "Company",
+          "betweenness": 60375.3
+        },
+        {
+          "entite": "Elon Musk",
+          "type": "Person",
+          "betweenness": 58899.0
+        },
+        {
+          "entite": "San Francisco",
+          "type": "Location",
+          "betweenness": 46075.4
+        },
+        {
+          "entite": "Sequoia Capital",
+          "type": "Company",
+          "betweenness": 46055.3
+        },
+        {
+          "entite": "Salesforce",
+          "type": "Company",
+          "betweenness": 44345.6
+        },
+        {
+          "entite": "Arm Holdings",
+          "type": "Company",
+          "betweenness": 41079.9
+        }
+      ],
+      "ms": 79.9
+    },
+    "Communautés Louvain (les plus grandes)": {
+      "cypher": "MATCH (e:Entity) WHERE e.community IS NOT NULL\n        WITH e.community AS communaute, e ORDER BY e.pagerank DESC\n        WITH communaute, collect(e.name) AS membres, count(*) AS taille\n        RETURN communaute, taille, membres[0..10] AS principaux_membres ORDER BY taille DESC LIMIT 10",
+      "rows": [
+        {
+          "communaute": 466,
+          "taille": 97,
+          "principaux_membres": [
+            "Tesla",
+            "SpaceX",
+            "SpaceX Super Intelligence",
+            "Neuralink",
+            "Elon Musk",
+            "X Corp.",
+            "Twitter",
+            "X.com",
+            "xAI",
+            "Cursor"
+          ]
+        },
+        {
+          "communaute": 173,
+          "taille": 83,
+          "principaux_membres": [
+            "Google",
+            "Alphabet Inc.",
+            "Syed Anas Mohiuddin",
+            "Larry Page",
+            "Sergey Brin",
+            "PageRank",
+            "Granite Systems",
+            "Andy Bechtolsheim",
+            "JP Morgan Chase",
+            "Sidewalk Labs"
+          ]
+        },
+        {
+          "communaute": 200,
+          "taille": 72,
+          "principaux_membres": [
+            "IBM",
+            "Red Hat",
+            "Cygnus Solutions",
+            "Bob Young",
+            "Project Lightwell",
+            "MSN",
+            "AOL",
+            "Arthur L. Samuel",
+            "IBM 7094",
+            "OS/2"
+          ]
+        },
+        {
+          "communaute": 1175,
+          "taille": 70,
+          "principaux_membres": [
+            "Figma",
+            "Slack",
+            "GitHub",
+            "Instagram",
+            "Andreessen Horowitz",
+            "Atlassian",
+            "Kleiner Perkins",
+            "Mike Krieger",
+            "Thrive Capital",
+            "SourceForge"
+          ]
+        },
+        {
+          "communaute": 305,
+          "taille": 66,
+          "principaux_membres": [
+            "OpenAI",
+            "Anthropic",
+            "San Francisco",
+            "California",
+            "OpenAI Global, LLC",
+            "OpenAI LP",
+            "John Schulman",
+            "Sam Altman",
+            "United States District Court for the Northern District of California",
+            "OpenAI Group PBC"
+          ]
+        },
+        {
+          "communaute": 39,
+          "taille": 65,
+          "principaux_membres": [
+            "Apple",
+            "Adobe Inc.",
+            "Steve Jobs",
+            "14-inch MacBook Pro",
+            "NeXT",
+            "M6 chip",
+            "Steve Wozniak",
+            "Apple II",
+            "John Sculley",
+            "Accelio"
+          ]
+        },
+        {
+          "communaute": 1368,
+          "taille": 56,
+          "principaux_membres": [
+            "LinkedIn",
+            "Meta Platforms",
+            "WhatsApp",
+            "Sequoia Capital",
+            "Facebook",
+            "Yahoo!",
+            "Mark Zuckerberg",
+            "Brian Acton",
+            "Chan Zuckerberg Initiative",
+            "Rohit Patel"
+          ]
+        },
+        {
+          "communaute": 351,
+          "taille": 49,
+          "principaux_membres": [
+            "Arm Holdings",
+            "Samsung Electronics",
+            "Samsung",
+            "Linaro",
+            "Arm China",
+            "Samsung Electric Industries",
+            "Freescale",
+            "SoftBank Group",
+            "Hewlett-Packard",
+            "Motorola"
+          ]
+        },
+        {
+          "communaute": 261,
+          "taille": 47,
+          "principaux_membres": [
+            "Microsoft",
+            "Microsoft Office",
+            "General Electric",
+            "Bill Gates",
+            "Paul Allen",
+            "Xenix",
+            "MSNBC",
+            "Traf-O-Data",
+            "Steve Ballmer",
+            "Microsoft Excel"
+          ]
+        },
+        {
+          "communaute": 929,
+          "taille": 46,
+          "principaux_membres": [
+            "VMware",
+            "Broadcom",
+            "Avago Technologies Limited",
+            "Topgolf",
+            "Scott Forehand",
+            "Cisco Systems",
+            "vCloud Hybrid Service",
+            "Diane Greene",
+            "Palo Alto, California",
+            "Pat Gelsinger"
+          ]
+        }
+      ],
+      "ms": 123.9
+    }
+  }
+}
