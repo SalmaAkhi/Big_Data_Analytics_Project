@@ -3,6 +3,7 @@
 **Big Data · Extraction d'information par LLM · Neo4j · GraphRAG**
 
 > Module **Big Data Analytics** — INPT, filière Innovation & AMOA — 2026–2027
+>
 > Réalisé par **AKHI Salma** et **BENTATOU Rania** — encadré par **M. EL GHAZI Hamid**
 
 📄 **Rapport complet :** [Rapport_Projet_Knowledge_Graph.pdf](Rapport_Projet_Knowledge_Graph.pdf)
